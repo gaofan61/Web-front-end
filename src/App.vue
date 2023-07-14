@@ -9,6 +9,11 @@
           我是父组件里面的插槽内容
       </SlotDemo>
       <SlotDemo></SlotDemo>
+      <br>
+      <RegisterDemo1></RegisterDemo1>
+      <br>
+      <RegisterDemo2></RegisterDemo2>
+
     </div>
   </div>
   
@@ -18,6 +23,7 @@
 <script>
 import EmitSon from './components/EmitSon.vue'
 import SlotDemo from './components/SlotDemo.vue'
+import RegisterDemo2 from './components/RegisterDemo2.vue'
 export default {
   data(){
     return {
@@ -31,10 +37,12 @@ export default {
   },
   components: {
     EmitSon,
-    SlotDemo
+    SlotDemo,
+    RegisterDemo2
   }
 }
 </script>
+
 
 <style>
 

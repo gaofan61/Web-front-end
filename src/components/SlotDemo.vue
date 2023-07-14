@@ -1,0 +1,10 @@
+<template>
+    <div>
+        我是子组件--
+        <slot>
+            我是后备内容
+        </slot>
+    </div>
+</template>
+<script>
+</script>
